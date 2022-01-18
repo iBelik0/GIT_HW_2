@@ -1,0 +1,13 @@
+Ўаги
+«апуск с некорректными параметрами, несуществующие пути 
+1. «апустить приложение со всеми трем€ параметрами (SOURCE_DIR, DESTINATION_DIR, LOG_FILE_NAME),
+значени€ которых указывают на несуществующие в файловой системе пути 
+(например: z:\src\, z:\dst\, z:\log.txt при условии, что в системе нет логического диска z). 
+
+ќжидаемые результаты:
+1. ¬ консоли отображаютс€ нижеуказанные сообщени€, приложение завершает работу.
+ —ообщени€: 
+a. —ообщение об использовании. 
+b. SOURCE_DIR [z:\src\]: directory not exists or inaccessible. 
+c. DESTINATION_DIR [z:\dst\]: directory not exists or inaccessible. 
+d. LOG_FILE_NAME [z:\log.txt]: wrong file name or inaccessible path
